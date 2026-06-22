@@ -1,4 +1,4 @@
-FROM python:3.9.18-alpine3.18
+FROM python:3.14.6-alpine3.24
 # docker build --pull --no-cache -t bscheshir/hg-to-git:python3.9.18-alpine3.18 -- ./build && docker push bscheshir/hg-to-git:python3.9.18-alpine3.18
 # docker build --pull -t bscheshir/hg-to-git:python3.9.18-alpine3.18 -- ./build
 LABEL maintainer="BSCheshir <bscheshir.work@gmail.com>"
